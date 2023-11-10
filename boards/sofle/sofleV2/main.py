@@ -40,7 +40,7 @@ keyboard.keymap = [
         KC.TAB,   KC.SCOLON,KC.Q,     KC.J,     KC.K,     KC.X,     KC.B,     KC.M,     KC.W,     KC.V,     KC.Z,     KC.ENTER,
         xxx,      KC.MO(7), KC.MO(3), KC.MO(1), KC.MO(5), xxx,      xxx,      KC.MO(6), KC.MO(2), KC.MO(4), KC.MO(8), xxx,
     ],
-    [  # alpha right
+    [  # 1 alpha right
         # HERE----# HERE----# HERE----# HERE----# HERE----# HERE---|# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
         xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
         xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      KC.F,     KC.G,     KC.C,     KC.R,     KC.L,     KC.BSPC,
@@ -48,14 +48,62 @@ keyboard.keymap = [
         xxx,      osalt,    osgui,    ossft,    osctrl,   xxx,      KC.B,     KC.M,     KC.W,     KC.V,     KC.Z,     KC.ENTER,
         xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      KC.ENTER, KC.SPACE, KC.BSPC,  xxx,      xxx,
     ],
-    [  # alpha left
+    [  # 2 alpha left
         # HERE----# HERE----# HERE----# HERE----# HERE----# HERE---|# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
         xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
         KC.ESC,   KC.QUOT,  KC.COMM,  KC.DOT,   KC.P,     KC.Y,     xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
         KC.LSFT,  KC.A,     KC.O,     KC.E,     KC.U,     KC.I,     xxx,      KC.RCTL,  KC.RSFT,  KC.RGUI,  KC.RALT,  xxx,
         KC.TAB,   KC.SCOLON,KC.Q,     KC.J,     KC.K,     KC.X,     xxx,      osctrl,   ossft,    osgui,    osalt,    xxx,
         xxx,      xxx,      KC.ESC,   KC.SPACE, KC.TAB,   xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
-    ]
+    ],
+    [  # 3 symbols right
+        # HERE----# HERE----# HERE----# HERE----# HERE----# HERE---|# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      KC.F,     KC.G,     KC.C,     KC.R,     KC.L,     KC.BSPC,
+        xxx,      KC.LALT,  KC.LGUI,  KC.LSFT,  KC.LCTL,  xxx,      KC.D,     KC.H,     KC.T,     KC.N,     KC.S,     KC.RSFT,
+        xxx,      osalt,    osgui,    ossft,    osctrl,   xxx,      KC.B,     KC.M,     KC.W,     KC.V,     KC.Z,     KC.ENTER,
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      KC.ENTER, KC.SPACE, KC.BSPC,  xxx,      xxx,
+    ],
+    [  # 4 symbols left
+        # HERE----# HERE----# HERE----# HERE----# HERE----# HERE---|# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+        KC.ESC,   KC.QUOT,  KC.COMM,  KC.DOT,   KC.P,     KC.Y,     xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+        KC.LSFT,  KC.A,     KC.O,     KC.E,     KC.U,     KC.I,     xxx,      KC.RCTL,  KC.RSFT,  KC.RGUI,  KC.RALT,  xxx,
+        KC.TAB,   KC.SCOLON,KC.Q,     KC.J,     KC.K,     KC.X,     xxx,      osctrl,   ossft,    osgui,    osalt,    xxx,
+        xxx,      xxx,      KC.ESC,   KC.SPACE, KC.TAB,   xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+    ],
+    [  # 5 numbers
+        # HERE----# HERE----# HERE----# HERE----# HERE----# HERE---|# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      KC.N4,    KC.N5,    KC.N6,    xxx,      xxx,
+        xxx,      KC.LALT,  KC.LGUI,  KC.LSFT,  KC.LCTL,  xxx,      KC.N0,    KC.N1,    KC.N2,    KC.N3,    xxx,      xxx,
+        xxx,      osalt,    osgui,    ossft,    osctrl,   xxx,      xxx,      KC.N7,    KC.N8,    KC.N9,    xxx,      xxx,
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      KC.N0,    KC.DOT,   xxx,      xxx,
+    ],
+    [  # 6 navigation
+        # HERE----# HERE----# HERE----# HERE----# HERE----# HERE---|# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+        KC.ESC,   KC.QUOT,  KC.COMM,  KC.DOT,   KC.P,     KC.Y,     xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+        KC.LSFT,  KC.A,     KC.O,     KC.E,     KC.U,     KC.I,     xxx,      KC.RCTL,  KC.RSFT,  KC.RGUI,  KC.RALT,  xxx,
+        KC.TAB,   KC.SCOLON,KC.Q,     KC.J,     KC.K,     KC.X,     xxx,      osctrl,   ossft,    osgui,    osalt,    xxx,
+        xxx,      xxx,      KC.ESC,   KC.SPACE, KC.TAB,   xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+    ],
+    [  # 7 function keys
+        # HERE----# HERE----# HERE----# HERE----# HERE----# HERE---|# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      KC.F4,    KC.F5,    KC.F6,    xxx,      xxx,
+        xxx,      KC.LALT,  KC.LGUI,  KC.LSFT,  KC.LCTL,  xxx,      KC.F10,   KC.F1,    KC.F2,    KC.F3,    xxx,      xxx,
+        xxx,      osalt,    osgui,    ossft,    osctrl,   xxx,      KC.F11,   KC.F7,    KC.F8,    KC.F9,    xxx,      xxx,
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      KC.F12,   xxx,      xxx,      xxx,
+    ],
+    [  # 8 mouse
+        # HERE----# HERE----# HERE----# HERE----# HERE----# HERE---|# HERE----# HERE----# HERE----# HERE----# HERE----# HERE----
+        xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+        KC.ESC,   KC.QUOT,  KC.COMM,  KC.DOT,   KC.P,     KC.Y,     xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+        KC.LSFT,  KC.A,     KC.O,     KC.E,     KC.U,     KC.I,     xxx,      KC.RCTL,  KC.RSFT,  KC.RGUI,  KC.RALT,  xxx,
+        KC.TAB,   KC.SCOLON,KC.Q,     KC.J,     KC.K,     KC.X,     xxx,      osctrl,   ossft,    osgui,    osalt,    xxx,
+        xxx,      xxx,      KC.ESC,   KC.SPACE, KC.TAB,   xxx,      xxx,      xxx,      xxx,      xxx,      xxx,      xxx,
+    ],
 ]
 
 encoder_handler = EncoderHandler()
